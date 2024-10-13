@@ -2,3 +2,8 @@ psql --username=freecodecamp --dbname=postgrespsql --username=freecodecamp --dbn
 pg_dump -cC --inserts -U freecodecamp universe > universe.sql
 psql --username=freecodecamp --dbname=postgrespsql --username=freecodecamp --dbname=postgres
 ls --color=auto
+git remote -v
+ls --color=auto
+git remote add personal git@github.com:nayabatir1/FCC-Build-a-Celestial-Bodies-Database.git
+git remote -v
+git add .
